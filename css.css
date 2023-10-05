@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+hr {
+    box-sizing: border-box;
+    padding:0%;
+}
+nav {
+    background-color: gray;
+    padding: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #dddddd;
+  }
+
+  li {
+    display: inline;
+    float: left;
+  }
+
+  a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+
+  li a {
+    display: block;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: darkgray;
+  }
+
+  .active {
+    background-color: #04AA6D;
+  }
+
+  .active:hover {
+    background-color: #058355;
+  }
+  .parallax {
+    /* The image used */
+    background-image: url("image/banner\ \(2\).png");
+    /* Full height */
+    height: 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  header {
+    text-shadow:
+       2px  2px 0 #dddddd,
+      -1px -1px 0 #dddddd,  
+       1px -1px 0 #dddddd,
+      -1px  1px 0 #dddddd,
+       1px  1px 0 #dddddd;
+  }
+  
